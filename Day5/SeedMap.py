@@ -10,7 +10,7 @@ def CreateMap():
 
 File = openFile()
 for card, line in enumerate(File):
-    pass
+    print(line)
 SoilMap = CreateMap()
 FertMap = CreateMap()
 WaterMap = CreateMap()
