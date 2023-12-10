@@ -1,16 +1,15 @@
 def openFile():
     #Locate and read the file
-    filepath = "/Users/eddie.pantoja.cache/CodeBase/AdventofCode/Day5/"
     #filename = "SeedMap.txt"
     filename = "SeedSample.txt"
-    return open(filepath + filename, "r")
+    return open(filename, "r")
 
 def CreateMap():
     return "Map"
 
 File = openFile()
-for card, line in enumerate(File):
-    print(line)
+for count, line in enumerate(File):
+    print("Reading line " + str(count+1))
 SoilMap = CreateMap()
 FertMap = CreateMap()
 WaterMap = CreateMap()

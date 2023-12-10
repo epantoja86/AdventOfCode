@@ -23,10 +23,9 @@ def part2(text):
     return text
 
 #Locate and read the file
-filepath = "/Users/eddie.pantoja.cache/CodeBase/AdventofCode/Day1/"
 filename = "CalibrationInput.txt"
 #filename = "inputtest.txt"
-f = open(filepath + filename, "r")
+f = open(filename, "r")
 
 #Initialise variables
 sum = 0

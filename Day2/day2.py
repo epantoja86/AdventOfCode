@@ -7,10 +7,9 @@ config = {
 }
 
 #Locate and read the file
-filepath = "/Users/eddie.pantoja.cache/CodeBase/AdventofCode/Day2/"
 filename = "InputRecord.txt"
 #filename = "TestRecord.txt"
-f = open(filepath + filename, "r")
+f = open(filename, "r")
 
 def part1(text):
     for key,value in config.items():

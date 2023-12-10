@@ -2,10 +2,9 @@ special_characters ="!@#$%^&*()-+?_=,<>/"
 
 def openFile():
     #Locate and read the file
-    filepath = "/Users/eddie.pantoja.cache/CodeBase/AdventofCode/Day4/"
     #filename = "ScratchSample.txt"
     filename = "ScratchCards.txt"
-    return open(filepath + filename, "r")
+    return open(filename, "r")
 
 def readString(string):
     List = []

@@ -2,10 +2,9 @@ special_characters ="!@#$%^&*()-+?_=,<>/"
 
 def openFile():
     #Locate and read the file
-    filepath = "/Users/eddie.pantoja.cache/CodeBase/AdventofCode/Day3/"
     #filename = "SampleSchematic.txt"
     filename = "EngineSchematic.txt"
-    return open(filepath + filename, "r")
+    return open(filename, "r")
 
 def createArray(file):
     #Create Array
