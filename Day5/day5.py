@@ -7,6 +7,15 @@ def openFile():
 def CreateMap():
     return "Map"
 
+#Initialise Dictionaries
+soil = []
+fert = []
+water = []
+light = []
+temp = []
+humid = []
+loc = []
+
 File = openFile()
 for count, line in enumerate(File):
     print("Reading line " + str(count+1))
