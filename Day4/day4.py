@@ -48,5 +48,7 @@ def part2(f):
 
 File = openFile()
 print ("Total of " + str(part1(File)) + " Points")
+File.close
 File = openFile()
 print (str(part2(File)) + " Scratch cards in total")
+File.close

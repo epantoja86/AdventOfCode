@@ -37,3 +37,4 @@ for count, line in enumerate(f):
     #Return calibration value
     sum = sum + part1(fixedLine)
 print('The calibration number is ', sum)
+f.close

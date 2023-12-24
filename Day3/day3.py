@@ -67,3 +67,4 @@ Array = createArray(File)
 Array = createMargin(Array, len(Array[0]))
 print("Part Numbers: " + str(sum(part1(Array,special_characters))))
 print("Gear Ratios: " + str(part2(Array)))
+File.close

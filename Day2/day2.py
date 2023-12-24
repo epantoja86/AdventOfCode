@@ -41,3 +41,4 @@ for gameID, line in enumerate(f):
     power = power + part2(line)
 print('The sum of all valid gameIDs are ', sum)
 print('The sum of the power of cubes are ', power)
+f.close
