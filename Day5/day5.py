@@ -189,5 +189,5 @@ def part2():
     locations.sort()
     return locations[0]
 
-#print("Closest location (single): " + str(part1()))
+print("Closest location (single): " + str(part1()))
 print("Closest location: (range): " + str(part2()))
